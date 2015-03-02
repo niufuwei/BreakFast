@@ -7,7 +7,14 @@
 //
 
 #import "BFViewController.h"
+#import "CalendarHomeViewController.h"
+#import "CalendarViewController.h"
+//#import "CalendarDayModel.h"
+#import "Color.h"
 
 @interface B1_BFHomePageViewController : BFViewController
+{
+    CalendarHomeViewController *chvc;
 
+}
 @end

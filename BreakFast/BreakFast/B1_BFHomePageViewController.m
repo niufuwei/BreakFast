@@ -206,7 +206,7 @@
     [UIView animateWithDuration:0.5 animations:^{
        
         CGRect yyy = BottomView.frame;
-        yyy.origin.y = self.view.frame.size.height-80;
+        yyy.origin.y = self.view.frame.size.height-100;
         BottomView.frame = yyy;
     }];
 }
@@ -223,7 +223,7 @@
 
 -(void)popBottomView{
     
-    BottomView = [[UIView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height+150, self.view.frame.size.width, 80)];
+    BottomView = [[UIView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height+150, self.view.frame.size.width, 100)];
     [BottomView setBackgroundColor:[UIColor colorWithRed:0.0/255.0 green:0.0/255.0 blue:0.0/255.0 alpha:0.3]];
     [self.view addSubview:BottomView];
     
@@ -255,15 +255,51 @@
 
 -(void)onJSClick
 {
-    [BFMethods alertMessage:@"您的接受请求，系统已通知到将许文生。"];
+    [self goSelectTime];
     [self onHiden];
 }
 
 -(void)onJJClick
 {
-    [BFMethods alertMessage:@"您的拒绝请求，系统已通知到将许文生。"];
     [self onHiden];
+    [self goSelectTime];
+}
+
+
+-(void)goSelectTime{
+    if (!chvc) {
+        
+        chvc = [[CalendarHomeViewController alloc]init];
+        
+        chvc.calendartitle = @"飞机";
+        
+        [chvc setAirPlaneToDay:365 ToDateforString:nil];//飞机初始化方法
+        
+    }
     
+    
+    
+    
+    
+    chvc.calendarblock = ^(CalendarDayModel *model){
+        
+        NSLog(@"\n---------------------------");
+        NSLog(@"1星期 %@",[model getWeek]);
+        NSLog(@"2字符串 %@",[model toString]);
+        NSLog(@"3节日  %@",model.holiday);
+        
+        if (model.holiday) {
+            
+//            [but setTitle:[NSString stringWithFormat:@"%@ %@ %@",[model toString],[model getWeek],model.holiday] forState:UIControlStateNormal];
+            
+        }else{
+            
+//            [but setTitle:[NSString stringWithFormat:@"%@ %@",[model toString],[model getWeek]] forState:UIControlStateNormal];
+            
+        }
+    };
+    
+    [self.navigationController pushViewController:chvc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

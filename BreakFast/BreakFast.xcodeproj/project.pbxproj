@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8414395F1A9D7F4700B1C5CC /* CalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414394E1A9D7F4700B1C5CC /* CalendarDayCell.m */; };
+		841439601A9D7F4700B1C5CC /* CalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 841439501A9D7F4700B1C5CC /* CalendarDayModel.m */; };
+		841439611A9D7F4700B1C5CC /* CalendarHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841439521A9D7F4700B1C5CC /* CalendarHomeViewController.m */; };
+		841439621A9D7F4700B1C5CC /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 841439541A9D7F4700B1C5CC /* CalendarLogic.m */; };
+		841439631A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 841439561A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.m */; };
+		841439641A9D7F4700B1C5CC /* CalendarMonthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841439581A9D7F4700B1C5CC /* CalendarMonthHeaderView.m */; };
+		841439651A9D7F4700B1C5CC /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414395A1A9D7F4700B1C5CC /* CalendarViewController.m */; };
+		841439661A9D7F4700B1C5CC /* chack.png in Resources */ = {isa = PBXBuildFile; fileRef = 8414395B1A9D7F4700B1C5CC /* chack.png */; };
+		841439671A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414395E1A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.m */; };
+		841439691A9D7F8800B1C5CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841439681A9D7F8800B1C5CC /* CoreGraphics.framework */; };
+		8414396C1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414396B1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.m */; };
 		841ACCFA1A90710B009DA6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ACCF91A90710B009DA6E9 /* main.m */; };
 		841ACCFD1A90710B009DA6E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841ACCFC1A90710B009DA6E9 /* AppDelegate.m */; };
 		841ACD051A90710B009DA6E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841ACD041A90710B009DA6E9 /* Images.xcassets */; };
@@ -96,6 +107,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8414394D1A9D7F4700B1C5CC /* CalendarDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayCell.h; sourceTree = "<group>"; };
+		8414394E1A9D7F4700B1C5CC /* CalendarDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayCell.m; sourceTree = "<group>"; };
+		8414394F1A9D7F4700B1C5CC /* CalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDayModel.h; sourceTree = "<group>"; };
+		841439501A9D7F4700B1C5CC /* CalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDayModel.m; sourceTree = "<group>"; };
+		841439511A9D7F4700B1C5CC /* CalendarHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarHomeViewController.h; sourceTree = "<group>"; };
+		841439521A9D7F4700B1C5CC /* CalendarHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarHomeViewController.m; sourceTree = "<group>"; };
+		841439531A9D7F4700B1C5CC /* CalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarLogic.h; sourceTree = "<group>"; };
+		841439541A9D7F4700B1C5CC /* CalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarLogic.m; sourceTree = "<group>"; };
+		841439551A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthCollectionViewLayout.h; sourceTree = "<group>"; };
+		841439561A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthCollectionViewLayout.m; sourceTree = "<group>"; };
+		841439571A9D7F4700B1C5CC /* CalendarMonthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthHeaderView.h; sourceTree = "<group>"; };
+		841439581A9D7F4700B1C5CC /* CalendarMonthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthHeaderView.m; sourceTree = "<group>"; };
+		841439591A9D7F4700B1C5CC /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		8414395A1A9D7F4700B1C5CC /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		8414395B1A9D7F4700B1C5CC /* chack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chack.png; sourceTree = "<group>"; };
+		8414395C1A9D7F4700B1C5CC /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		8414395D1A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WQCalendarLogic.h"; sourceTree = "<group>"; };
+		8414395E1A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WQCalendarLogic.m"; sourceTree = "<group>"; };
+		841439681A9D7F8800B1C5CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8414396A1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B3_BFTimeSelectorViewController.h; sourceTree = "<group>"; };
+		8414396B1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B3_BFTimeSelectorViewController.m; sourceTree = "<group>"; };
 		841ACCF41A90710B009DA6E9 /* BreakFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841ACCF81A90710B009DA6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841ACCF91A90710B009DA6E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -224,6 +256,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841439691A9D7F8800B1C5CC /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,9 +270,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8414394C1A9D7F4700B1C5CC /* ZFCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				8414394D1A9D7F4700B1C5CC /* CalendarDayCell.h */,
+				8414394E1A9D7F4700B1C5CC /* CalendarDayCell.m */,
+				8414394F1A9D7F4700B1C5CC /* CalendarDayModel.h */,
+				841439501A9D7F4700B1C5CC /* CalendarDayModel.m */,
+				841439511A9D7F4700B1C5CC /* CalendarHomeViewController.h */,
+				841439521A9D7F4700B1C5CC /* CalendarHomeViewController.m */,
+				841439531A9D7F4700B1C5CC /* CalendarLogic.h */,
+				841439541A9D7F4700B1C5CC /* CalendarLogic.m */,
+				841439551A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.h */,
+				841439561A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.m */,
+				841439571A9D7F4700B1C5CC /* CalendarMonthHeaderView.h */,
+				841439581A9D7F4700B1C5CC /* CalendarMonthHeaderView.m */,
+				841439591A9D7F4700B1C5CC /* CalendarViewController.h */,
+				8414395A1A9D7F4700B1C5CC /* CalendarViewController.m */,
+				8414395B1A9D7F4700B1C5CC /* chack.png */,
+				8414395C1A9D7F4700B1C5CC /* Color.h */,
+				8414395D1A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.h */,
+				8414395E1A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.m */,
+			);
+			path = ZFCalendar;
+			sourceTree = "<group>";
+		};
 		841ACCEB1A90710B009DA6E9 = {
 			isa = PBXGroup;
 			children = (
+				841439681A9D7F8800B1C5CC /* CoreGraphics.framework */,
 				841ACCF61A90710B009DA6E9 /* BreakFast */,
 				841ACD101A90710B009DA6E9 /* BreakFastTests */,
 				841ACCF51A90710B009DA6E9 /* Products */,
@@ -302,6 +361,7 @@
 		841ACD1E1A90764F009DA6E9 /* itool */ = {
 			isa = PBXGroup;
 			children = (
+				8414394C1A9D7F4700B1C5CC /* ZFCalendar */,
 				8466EA4E1A9452DF00FA2138 /* Mbhud */,
 				841ACD431A908306009DA6E9 /* SDWebImage */,
 				841ACD3D1A907BED009DA6E9 /* NavViewController.h */,
@@ -450,6 +510,8 @@
 				8466EA211A9380CA00FA2138 /* B1_BFHomePageViewController.m */,
 				84F8433F1A949C9E0037D0E8 /* B2_BFHomeView.h */,
 				84F843401A949C9E0037D0E8 /* B2_BFHomeView.m */,
+				8414396A1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.h */,
+				8414396B1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.m */,
 			);
 			name = HomePage;
 			sourceTree = "<group>";
@@ -600,6 +662,7 @@
 				8466EA301A938FBE00FA2138 /* message.png in Resources */,
 				84F843531A94B2720037D0E8 /* groundColor.png in Resources */,
 				84F8434C1A949DEA0037D0E8 /* xingquButton.png in Resources */,
+				841439661A9D7F4700B1C5CC /* chack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,16 +691,20 @@
 				8466EA4D1A94526F00FA2138 /* BFMethods.m in Sources */,
 				8466EA361A942D0000FA2138 /* D1_BFShoppingCartViewController.m in Sources */,
 				841ACD271A9076A9009DA6E9 /* BFViewController.m in Sources */,
+				841439601A9D7F4700B1C5CC /* CalendarDayModel.m in Sources */,
 				841ACD3F1A907BED009DA6E9 /* NavViewController.m in Sources */,
 				841ACD7D1A90965A009DA6E9 /* B1_BFLeftCenterCell.m in Sources */,
 				841ACD2D1A9076D4009DA6E9 /* A1_BFLeftViewController.m in Sources */,
 				841ACDB31A933384009DA6E9 /* C1_BFForgetPasswordViewController.m in Sources */,
 				841ACD6A1A908306009DA6E9 /* UIButton+WebCache.m in Sources */,
+				841439611A9D7F4700B1C5CC /* CalendarHomeViewController.m in Sources */,
 				84F843381A946CDC0037D0E8 /* G0_BFOrderSuccessViewController.m in Sources */,
 				841ACD691A908306009DA6E9 /* SDWebImagePrefetcher.m in Sources */,
 				841ACD671A908306009DA6E9 /* SDWebImageDownloaderOperation.m in Sources */,
+				841439671A9D7F4700B1C5CC /* NSDate+WQCalendarLogic.m in Sources */,
 				841ACD2A1A9076C4009DA6E9 /* A0_BFCenterViewController.m in Sources */,
 				841ACD621A908306009DA6E9 /* NSData+GIF.m in Sources */,
+				841439631A9D7F4700B1C5CC /* CalendarMonthCollectionViewLayout.m in Sources */,
 				841ACD6C1A908306009DA6E9 /* UIImage+MultiFormat.m in Sources */,
 				84F843411A949C9E0037D0E8 /* B2_BFHomeView.m in Sources */,
 				841ACCFD1A90710B009DA6E9 /* AppDelegate.m in Sources */,
@@ -650,11 +717,16 @@
 				841ACD301A9076EA009DA6E9 /* A2_BFRightViewController.m in Sources */,
 				841ACCFA1A90710B009DA6E9 /* main.m in Sources */,
 				841ACD6B1A908306009DA6E9 /* UIImage+GIF.m in Sources */,
+				8414396C1A9D800200B1C5CC /* B3_BFTimeSelectorViewController.m in Sources */,
+				841439621A9D7F4700B1C5CC /* CalendarLogic.m in Sources */,
 				841ACD661A908306009DA6E9 /* SDWebImageDownloader.m in Sources */,
 				8466EA5B1A94659C00FA2138 /* F4_BFPayCell.m in Sources */,
 				8466EA541A9463AE00FA2138 /* F3_BFPayViewController.m in Sources */,
+				8414395F1A9D7F4700B1C5CC /* CalendarDayCell.m in Sources */,
 				8466EA221A9380CA00FA2138 /* B1_BFHomePageViewController.m in Sources */,
+				841439651A9D7F4700B1C5CC /* CalendarViewController.m in Sources */,
 				841ACD8C1A90DA19009DA6E9 /* B0_BFCenterCell.m in Sources */,
+				841439641A9D7F4700B1C5CC /* CalendarMonthHeaderView.m in Sources */,
 				841ACD611A908306009DA6E9 /* MKAnnotationView+WebCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
